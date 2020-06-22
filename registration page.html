@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+          <title>SIH-2020</title>
+          <!--<script>
+              alert("Welcome to Hackathon");
+          </script>-->
+          <style>
+                 body{
+                      margin:0;
+                      padding:0;
+                      background: url(bg-037.jpg);
+                      background-size: cover;
+
+                 }
+                 input {
+                       
+                       padding: 12px;
+                       border: 1px solid #ccc;
+                       border-radius: 4px;
+                       box-sizing: border-box;
+                       margin-top: 6px;
+                       margin-bottom: 10px;
+                     }
+                
+                 .container{
+                        top:80%;
+                        left:50%;
+                        position: absolute;
+                        transform:translate(-50%,-50%);
+                        text-align: center;
+                        }
+
+                .card{
+                       background-color: #f1f1f1;
+                       opacity: 0.9;
+                       padding: 12px;
+                       text-align: center;
+
+                   }
+              
+                
+                .blink {
+                     animation: blinker 0.9s linear infinite;
+                     color: #34C8F5;
+                     font-size: 20px;
+                     font-weight: bold;
+                     width:20px
+                     border:20px;
+                     padding:6px;
+                     margin-bottom:15px;
+                     font-family: sans-serif;
+                   }
+                    @keyframes blinker {  
+                    50% { opacity: 0; }
+                    }
+                              
+            
+               #button{
+                       padding: 12px 100px;
+                       border: 1px solid #ccc;
+                       border-radius: 4px;
+                       box-sizing: border-box;
+                       margin-top: 6px;
+                       margin-bottom: 16px;
+                       background-color: #78F534           }   
+             a{
+                font-size:20px;
+                color:black;
+             }  
+             b{
+              font-size:20px;
+              font-family: sans-serif;
+              color:black;
+             }  
+              big{ 
+                line-height: 1.5;
+              }
+              
+       </style>
+   </head>
+   
+    <marquee behavior="scroll" direction="left" width="100%" height="5%" bgcolor="#F55634">
+     <b> 
+      Last date for registering team is 21st january, 2020!Shortlist of the participant is announced soon! 
+     
+     </b>
+           </marquee>
+   
+   <h1 
+
+   style="text-align:center"  ><b> HACHATHON-Register </b></h1>
+   
+   </h1>
+
+<h1 style="text-align:center">
+   <div class="blink">
+               TEAM REGISTER NOW
+    </div>
+</h1>
+  <div style="padding:15px 15px 500px;">
+  <form method="post" action="registration database.php"  >
+   <boby>
+          <div class="card">
+          
+              <!--<div class="container">-->
+                  
+                   <p><input type="first_name" placeholder="FIRST NAME" name="first_name" id="first_name" value="" required> <br>
+                   
+                  <input type="last_name" placeholder="LAST NAME" name="last_name" id="last_name" value="" required>  <br>
+                   
+                   <b>Gender</b><br>
+                    <input type="checkbox" value="Male" id="gender" name="gender" value="">Male <input type="checkbox" value="Female" id="gender" name="gender" value="">Female<br><br>
+                   
+                  <input type="email" placeholder="MAIL ID" name="email" id="email_id" value="" required> <br>
+                   
+                  <input type="phone" placeholder="MOBILE NUMBER" name="phone" id="number" value="">  <br>
+                   
+                  <input type="collage_name" placeholder="COLLAGE NAME" name="collage_name" id="collage_name" value="" required>  <br>
+
+                  <input type="password" placeholder="PASSWORD" name="password" id="password" value="" >  <br>
+
+                  <input type="password" placeholder="CONFIRM-PASSWORD" name="confirm_password" id="confirm_password" value="">  </p><br>
+                  
+                   <input style="text-align: center;" type="submit" value="submit" id="button" > <br>
+                   <p> Already have account?<a href="login page.html">Login now</a></p><br>
+              </div>    
+          <!--</div>-->
+        </form>
+    </body>
+  </div>
+</html>
